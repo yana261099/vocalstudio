@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Образцовая шоу-группа "Тип-топ"</title>
+</head>
+
+<body>
+    <main>
+        <div class="menu">
+            <div class="menu_header">
+                <a href="index.html">
+                    <div class="menu_header--logo">
+                        <img src="img/logo.jpg" alt="Logo">
+                    </div>
+                </a>
+            </div>
+            <a href="pages/about.html">
+                <div class="menu--item">О студии</div>
+            </a>
+            <a href="pages/employees.html">
+                <div class="menu--item">Команда</div>
+            </a>
+            <a href="pages/schedule.html">
+                <div class="menu--item">Расписание и прейскурант</div>
+            </a>
+            <a href="pages/news.html">
+                <div class="menu--item">Новости</div>
+            </a>
+            <a href="pages/media.html">
+                <div class="menu--item">Галерея</div>
+            </a>
+        </div>
+        <div class="logo">
+            <div class="logo_container">
+                <div class="logo_menu">
+                    <div class="menu-item">Новости</div>
+                    <div class="menu-item">О нас</div>
+                    <div class="menu-item">Контакты</div>
+                </div>
+                <img src="img/logo.jpg" alt="Logo">
+            </div>
+        </div>
+    </main>
+    <div class="icons">
+        <div class="phone">
+            <div class="call icon">
+                <a href="tel:+375297444468"><img src="img/icons/icon-call.png" alt=""></a>
+            </div>
+            <div class="message icon">
+                <a href="mailto:kristina1975@yandex.ru"><img src="img/icons/icon-chat.png" alt=""></a>
+            </div>
+        </div>
+        <div class="chats">
+            <div class="instagram icon">
+                <a href="https://www.instagram.com/tiptop_crystal/" target="_blank"><img
+                        src="img/icons/icon-instagram.png" alt=""></a>
+            </div>
+            <div class="viber icon">
+                <a href="viber://chat?number=375297444468"><img src="img/icons/icon-viber.png" alt=""></a>
+            </div>
+            <div class="telegram icon">
+                <a href="tg:+375297444468"><img src="img/icons/icon-telegram.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/bird1.js"></script>
+    <script src="src/bird2.js"></script>
+    <script>
+        VANTA.BIRDS({
+            el: ".menu",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0xffffff,
+            color1: 0xff4b00,
+            color2: 0xfff000,
+            birdSize: 1.80,
+            wingSpan: 25.00,
+            speedLimit: 4.00,
+            separation: 65.00,
+            alignment: 59.00,
+            cohesion: 45.00,
+            quantity: 3.00
+        })
+    </script>
+</body>
+
+</html>

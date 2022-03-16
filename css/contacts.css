@@ -1,0 +1,16 @@
+main .contacts {
+  width: 100%;
+  height: 50vh;
+  margin: 3vh 0;
+  display: flex;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5em;
+}
+main .contacts a {
+  color: black;
+  text-decoration: underline;
+}
+main .contacts iframe {
+  width: 100%;
+  height: 100%;
+}
